@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week one task</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Site with quizzes</h1>
+    </nav>
+    <main>
+        <section class="question">
+            <h2 id="questionName"></h2>
+        </section>
+        <p id="hint">Insert your answer here:</p>
+        <label>
+            <input type="text" id="questionAnswer" required/>
+        </label>
+        <button id="button" onclick="checkAnswer()">
+            Next question
+        </button>
+        <div id="result">
+            <p id="questionResult"></p>
+        </div>
+    </main>
+</body>
+</html>
